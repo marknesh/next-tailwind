@@ -1,5 +1,5 @@
 import PigeonInfo from '@/components/PigeonInfo';
-import Record from '@/components/Record';
+
 import WeatherReport from '@/components/WeatherReport';
 
 /**
@@ -30,11 +30,6 @@ export default async function Home() {
         windSpeed={data.windSpeed}
       >
         <PigeonInfo />
-
-        <div className='flex items-center space-x-4'>
-          <Record name={'Race'} value={'01'} />
-          <Record name={'Distance km'} value={'234.10'} />
-        </div>
       </WeatherReport>
     </main>
   );

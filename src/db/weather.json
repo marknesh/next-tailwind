@@ -12,7 +12,7 @@
     },
     {
       "temperature": 12,
-      "windSpeed": 8,
+      "windSpeed": 18,
       "windDirection": "NW"
     },
     {
@@ -22,18 +22,18 @@
     },
     {
       "temperature": 21,
-      "windSpeed": 6,
-      "windDirection": "S"
+      "windSpeed": 16,
+      "windDirection": "SE"
     },
     {
       "temperature": 22,
       "windSpeed": 18,
-      "windDirection": "E"
+      "windDirection": "NE"
     },
     {
       "temperature": 23,
       "windSpeed": 13,
-      "windDirection": "E"
+      "windDirection": "NW"
     }
   ]
 }

@@ -9,3 +9,10 @@ interface RecordProps {
   name: string;
   value: string;
 }
+
+interface WindDetailsProps {
+  Icon: React.ElementType;
+  value: string | number;
+  windPropertyUnit: string;
+  windProperty: string;
+}
