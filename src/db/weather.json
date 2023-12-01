@@ -1,0 +1,39 @@
+{
+  "weather": [
+    {
+      "temperature": 17,
+      "windSpeed": 12,
+      "windDirection": "NE"
+    },
+    {
+      "temperature": 20,
+      "windSpeed": 10,
+      "windDirection": "SE"
+    },
+    {
+      "temperature": 12,
+      "windSpeed": 8,
+      "windDirection": "NW"
+    },
+    {
+      "temperature": 18,
+      "windSpeed": 17,
+      "windDirection": "SW"
+    },
+    {
+      "temperature": 21,
+      "windSpeed": 6,
+      "windDirection": "S"
+    },
+    {
+      "temperature": 22,
+      "windSpeed": 18,
+      "windDirection": "E"
+    },
+    {
+      "temperature": 23,
+      "windSpeed": 13,
+      "windDirection": "E"
+    }
+  ]
+}
