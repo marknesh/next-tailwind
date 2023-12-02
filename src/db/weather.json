@@ -1,37 +1,37 @@
 {
   "weather": [
     {
-      "temperature": 17,
+      "temperature": 12,
       "windSpeed": 12,
       "windDirection": "NE"
     },
     {
-      "temperature": 20,
+      "temperature": 10,
       "windSpeed": 10,
       "windDirection": "SE"
     },
     {
-      "temperature": 12,
+      "temperature": 18,
       "windSpeed": 18,
       "windDirection": "NW"
     },
     {
-      "temperature": 18,
+      "temperature": 17,
       "windSpeed": 17,
       "windDirection": "SW"
     },
     {
-      "temperature": 21,
+      "temperature": 16,
       "windSpeed": 16,
       "windDirection": "SE"
     },
     {
-      "temperature": 22,
+      "temperature": 18,
       "windSpeed": 18,
       "windDirection": "NE"
     },
     {
-      "temperature": 23,
+      "temperature": 13,
       "windSpeed": 13,
       "windDirection": "NW"
     }

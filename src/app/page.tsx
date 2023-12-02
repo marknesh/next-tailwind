@@ -5,7 +5,7 @@ import WeatherReport from '@/components/WeatherReport';
 /**
  * Fetches data from the local json server
  *
- * @returns {WeatherProps} random weather data
+ * @returns {WeatherProps[]}
  */
 async function fetchWeatherReport() {
   const res = await fetch('http://localhost:3001/weather');
@@ -16,19 +16,15 @@ async function fetchWeatherReport() {
 
   const data: WeatherProps[] = await res.json();
 
-  return data[Math.floor(Math.random() * 7)];
+  return data;
 }
 
 export default async function Home() {
   const data = await fetchWeatherReport();
 
   return (
-    <main className='flex flex-col min-h-[50vh] justify-center'>
-      <WeatherReport
-        temperature={data?.temperature}
-        windDirection={data.windDirection}
-        windSpeed={data.windSpeed}
-      >
+    <main>
+      <WeatherReport data={data}>
         <PigeonInfo />
       </WeatherReport>
     </main>

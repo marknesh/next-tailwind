@@ -2,8 +2,10 @@
 
 const PigeonInfo = () => {
   return (
-    <div className='flex items-center space-x-5'>
-      <h1 className='text-white text-3xl font-bold'>Blue Jacket</h1>
+    <div className='flex items-center  space-x-5'>
+      <h1 className='text-white whitespace-nowrap text-3xl font-bold'>
+        Blue Jacket
+      </h1>
 
       <div className='w-px h-16 bg-gray-300' />
 
