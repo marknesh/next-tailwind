@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply whitespace-nowrap cursor-pointer font-semibold hover:text-yellow-500  mt-3 px-3 py-1 bg-white rounded-full text-gray-900;
+  }
+
+  .containerBorder {
+    @apply rounded-sm border-2 border-gray-500/30;
+  }
+}

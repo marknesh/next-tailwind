@@ -8,7 +8,9 @@ import WeatherReport from '@/components/WeatherReport';
  * @returns {WeatherProps[]}
  */
 async function fetchWeatherReport() {
-  const res = await fetch('http://localhost:3001/weather');
+  const res = await fetch('http://localhost:3001/weather', {
+    cache: 'no-cache',
+  });
 
   if (!res.ok) {
     throw new Error('Failed to fetch weather data');
